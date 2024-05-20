@@ -189,6 +189,7 @@ vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right win
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
+vim.keymap.set('n', 'ds', 'd0i<BS><Esc>', { desc = 'Select entire buffer' })
 vim.keymap.set('v', '<S-a>', '<Esc>gg0vG$', { desc = 'Select entire buffer' })
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
